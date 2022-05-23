@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="divide-method" />
+        <module name="average-method" />
+        <module name="method-return-types" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="average-method" target="18" />
+      <module name="divide-method" target="18" />
+      <module name="method-return-types" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="average-method" options="--add-modules java.base" />
+      <module name="divide-method" options="--add-modules java.base" />
+    </option>
+  </component>
+</project>
